@@ -1,0 +1,59 @@
+body{
+	margin :0;
+	border : 0;
+	padding : 0;
+	background-color : #FFE4E1;
+}
+.forma{
+	font-family:Courier New;
+}
+.error {
+  border: 2px solid red;
+}
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td:first-child {
+    background: #AFCDE7;
+    color: white;
+}
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    width: 150;
+}
+td {
+    background: #D8E6F3;
+    width: 150;
+}
+th:first-child, td:first-child {
+    text-align: left;
+    width: 50;
+}
+.long{
+    width: 300;
+}
+.short{
+    width: 50;
+}
+.middle{
+    width: 60;
+}
+#content{
+    outline: none;
+    font-family: 'Uni Sans Semibold' ;
+    margin: auto auto;
+    background-color: #F0F8FF;
+    text-align: center;
+}
+#field-name, #field-email, #field-name-2, #field-date, #login, #pass, #in, #ok, #out{ 
+    border-radius: 50px;
+    margin:5px;
+}
+a{
+    color: #703bfd !important;
+}
